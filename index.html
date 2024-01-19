@@ -5,23 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style430.css" />
     <title>TedPrime - Home</title>
   </head>
   <body>
-    <header class="head glassmorphism shadow">
-      <div class="logo">
-        <img src="assets/img/logo.png" alt="Logo" class="logo-img" />
-        <!-- <p class="logo-text">TEDPRIME</p> -->
+    <header class="">
+      <div class="head glassmorphism shadow">
+
+        <div class="logo">
+          <img src="assets/img/logo.png" alt="Logo" class="logo-img" />
+          <div class="mobile-nav">
+            <img src="assets/img/hamburger.png" id="hamburger" alt="">
+          </div>
+          <!-- <p class="logo-text">TEDPRIME</p> -->
+        </div>
+        <nav class="nav" id="nav">
+          <ul class="list-group theme">
+            <li class="active ">Home</li>
+            <li class="">About</li>
+            <li class="">Blog</li>
+            <li class="">Contact</li>
+          </ul>
+        </nav>
+        
+        <!-- <p style="visibility: hidden;">ss</p> -->
+      
+
       </div>
-      <nav class="nav">
-        <ul class="list-group theme">
-          <li class="active">Home</li>
-          <li>About</li>
-          <li>Blog</li>
-          <li>Contact</li>
-          <li style="visibility: hidden;">ss</li>
-        </ul>
-      </nav>
     </header>
 
     <main>
@@ -39,15 +49,15 @@
         </button>
       </section>
       <section class="what-we-do">
-        <p class="title-text theme">
+        <p class="title-text theme center">
           THE INNOVATIONS WE PIONEER
         </p>
-        <p class="subtitle-text gray">
+        <p class="subtitle-text gray center">
           Think Faster. Build Smarter. Launch Better.
         </p>
         <div class="what-we-do-cards">
           <div class="single-card shadow">
-            <img src="assets/img/TedPrimeogo.png" alt="" class="single-card-img">
+            <img src="assets/img/TedPrimelogo.png" alt="" class="single-card-img">
             <p class="body-text">
               TedPrime Hub is a globally connected organization with its framework to usher in the new revolution where education becomes the main underlying factor in the new world and ecosytem that is engulfed with technology and innovation.
             </p>
@@ -229,18 +239,17 @@
     </main>
     
     <footer>
-      <div class="footer-details">
         <div class="footer-brand">
           <img src="assets/img/logo.png" alt="Tedprime logo" class="footer-logo">
           <p class="body-text">
             TEDPRIME BUILDING,<br> 
-BESIDE BGC, IDI-ABA <br>
-ABEOKUTA 110101O <br>
-GUN STATE, NIGERIA
+            BESIDE BGC, IDI-ABA <br>
+            ABEOKUTA 110101O <br>
+            OGUN STATE, NIGERIA
           </p>
         </div>
         
-        <div class="links">
+         <div class="links">
           <p class="subtitle-text">
             LINKS
           </p>
@@ -252,7 +261,7 @@ GUN STATE, NIGERIA
           </ul>
         </div>
         
-        <div class="links">
+      <div class="links">
           <p class="subtitle-text">
             RESOURCES
           </p>
@@ -264,7 +273,7 @@ GUN STATE, NIGERIA
             <li class="link-item"> Edubox </li>
           </ul>
         </div>
-        
+         
         <div class="links">
           <p class="subtitle-text">
             CONTACT
@@ -282,7 +291,8 @@ GUN STATE, NIGERIA
             <img src="assets/img/fb.png" alt="" class="social-logo">
           </div>
         </div>
-      </div>
     </footer>
+
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
